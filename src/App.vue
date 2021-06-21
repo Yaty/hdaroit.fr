@@ -28,6 +28,7 @@
             <div class="column img-container is-clickable" v-for="([imgPath, i18nKey, href]) in [['/img/climbing.jpg', 'climbing', 'https://escalade.hdaroit.fr'], ['/img/dev.jpg', 'dev', 'https://dev.hdaroit.fr'], ['/img/photo.jpg', 'photo', 'https://photographie.hdaroit.fr']]" :key="i18nKey">
               <a :href="href">
                 <img :alt="i18nKey" :src="imgPath">
+                <figcaption v-if="i18nKey === 'climbing'"><a target="_blank" href="https://www.janvirt.com/">Jan Virt Photography</a></figcaption>
                 <p class="has-text-white is-uppercase is-size-1">{{ $t(i18nKey) }}</p>
               </a>
             </div>
@@ -111,7 +112,7 @@
 
   @font-face {
     font-family: "Bebas Regular";
-    src: url("/font/Bebas-Regular.otf") format("otf");
+    src: url("/fonts/Bebas-Regular.otf") format("otf");
   }
 
   h1, h2, p {
