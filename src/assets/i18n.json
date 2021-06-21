@@ -1,0 +1,18 @@
+{
+  "en": {
+    "welcome": "Welcome!",
+    "description": "What can I do for you?",
+    "climbing": "Climbing",
+    "dev": "Software engineering",
+    "photo": "Photography",
+    "footer": "Made with <span class=\"icon\"><i class=\"fa fa-heart\"></i></span> by <a rel=\"noopener\" title=\"mail\" href=\"mailto:contact@hdaroit.fr\">Hugo Da Roit</a>.<br>The source code is licensed <a rel=\"noopener\" title=\"MIT\" target=\"_blank\" href=\"http://opensource.org/licenses/mit-license.php\">MIT</a> and is available <a target=\"_blank\" rel=\"noopener\" title=\"GitHub\" href=\"https://github.com/Yaty/hdaroit.fr\">here</a>."
+  },
+  "fr": {
+    "welcome": "Bienvenue !",
+    "description": "Que puis-je faire pour vous ?",
+    "climbing": "Escalade",
+    "dev": "Ingénierie logicielle",
+    "photo": "Photographie",
+    "footer": "Fait avec <span class=\"icon\"><i class=\"fa fa-heart\"></i></span> par <a rel=\"noopener\" title=\"mail\" href=\"mailto:contact@hdaroit.fr\">Hugo Da Roit</a>.<br>Le code est sous licence <a rel=\"noopener\" title=\"MIT\" target=\"_blank\" href=\"http://opensource.org/licenses/mit-license.php\">MIT</a> et est disponible <a rel=\"noopener\" title=\"GitHub\" target=\"_blank\" href=\"https://github.com/Yaty/hdaroit.fr\">ici</a>."
+  }
+}
