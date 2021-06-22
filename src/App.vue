@@ -140,6 +140,12 @@
     50% { border-color: black; }
   }
 
+  @media only screen and (max-width : $tablet) {
+    h2 {
+      animation: none !important;
+    }
+  }
+
   html {
     overflow-y: auto;
   }
